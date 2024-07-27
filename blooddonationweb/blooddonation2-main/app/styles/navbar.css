@@ -1,0 +1,133 @@
+        
+
+nav {
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    
+}
+
+.about-title {
+  margin-top: -20px;
+}
+
+.about-section {
+  margin-bottom: -20px;
+}
+
+.text1 {
+    margin-left: 8%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.foot__color {
+    background-color: red;
+}
+
+.reg-box {
+    backdrop-filter: blur(2px);
+    width: 1525px;
+    margin-left: -150px;
+    height: 730px;
+    margin-top: -128px;
+    background-color: rgba(128, 128, 128, 0.35);
+}
+
+.sideNav {
+    height: 100%;
+    
+}
+
+.donate-details__box {
+    margin-top: 64px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.statbox {
+  width: 1200px;
+}
+
+.profile-box {
+   margin-left: 200px;
+}
+/* components/Calendar.module.css */
+.calendar { 
+    /* padding-left: 10px; */
+    margin-top: 65px;
+    
+    height: 347px;
+    width:  477px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .calender-box {
+    margin-right: 1000px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  
+  .calendar-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: #ddd;
+  }
+  
+  .calendar-day {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  .calendar-empty,
+  .calendar-date {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+  }
+  
+  .calendar-date:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+.calender-box {
+  margin-right: -500px;
+  width:  477px;
+}
+.box2 {
+   width: 1040px;
+   
+}
+
+.box3 {
+  height: 730px;
+}
+
+.unit-num {
+  font-size: xx-small;
+  margin: 5px 0 0 -12px;
+}
+
+.logo-box {
+  margin-top: -5px;
+}
